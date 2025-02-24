@@ -1,0 +1,117 @@
+body{
+    background-image: url(BACKGROUND.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0px;
+}
+.Headingbox{
+    height: 100px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 7px solid rgb(255, 77, 0);
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contentsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Heading1{
+    color: rgb(255, 77, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.Heading2{
+    height: 70px;
+    width: 150px;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 77, 0);
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Registerbox{
+    height: 490px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 7px solid rgb(255, 77, 0);
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-self: center;
+}
+.Registersection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.text1{
+    color: rgb(255, 77, 0);
+    font-size: 31px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    border: 5px solid rgb(255, 77, 0);
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.text2{
+    color: rgb(255, 77, 0);
+    font-size: 19.5px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    border: 5px solid rgb(255, 77, 0);
+    border-radius: 10px 10px 10px 10px;
+    width: 290px;
+    padding: 3.5px;
+    margin-top: 0px;
+}
+.form{
+    height: 30px;
+    width: 290px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(255, 77, 0);
+    text-align: center;
+    background-color: rgb(255, 109, 46, 0.3);
+    border: 6px solid rgb(255, 77, 0);
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    margin-top: 20px;
+}
+input::placeholder{
+    color: rgb(255, 77, 0);
+}
+.submitbutton{
+    height: 50px;
+    width: 200px;
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 77, 0);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
