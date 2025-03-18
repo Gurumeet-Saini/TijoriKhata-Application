@@ -6,29 +6,30 @@
     <title>TIJORIKHATA</title>
     <link rel="stylesheet" href="\static\MainPage.css">
     <script src="https://kit.fontawesome.com/beb166c732.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <nav class="Navigationbar">
-    <div class="Headingbox">
+    <div class="Headingbox animate__animated animate__backInDown">
         <div class="Headingsection">
             <h1 class="Heading1">"Effortless Transactions,<br>Like Leaves in the Wind! 🍂"</h1>
             <div class="Heading2"><h3>TIJORI<br>KHATA</h3></div>
         </div>
     </div>
-    <div class="Navigationbox">
+    <div class="Navigationbox animate__animated animate__backInDown">
         <a href="{{url_for('register')}}"><button type="submit" class="button" style="margin-left: 0px;">REGISTER</button></a>
         <a href="{{url_for('login')}}"><button type="submit" class="button">LOGIN</button></a>
         <button type="submit" class="button">HELP</button>
         <button type="submit" class="button">ABOUT</button>
-        <button type="submit" class="button">SOCIAL</button>
+        <button type="submit" class="button"><a href="#icons" class="navlinking" style="color: rgb(255, 255, 255); text-decoration: none;">SOCIAL</a></button>
     </div>
-    <div class="Mobilebox">
-        <a href="tel:7814926760"><i class="fa fa-solid fa-phone" style="color: rgb(255, 77, 0); font-size: 23px;"></i></a>
+    <div class="Mobilebox animate__animated animate__backInDown">
+        <a href="tel:7814926760"><i class="fa fa-solid fa-phone" style="color: rgb(255, 0, 0); font-size: 23px;"></i></a>
         <h2 class="MobileNo">7814926760</h2>
     </div>
     </nav>
     <div class="Section1">
-        <div class="Contentbox">
+        <div class="Contentbox1 animate__animated animate__backInDown">
             <h2 class="text1">One platform for all your business needs</h2>
             <div class="Contentsection">
                 <h3 class="text2" style="margin-left: 0px;">Manage Digital<br>Bahi Khata</h3>
@@ -36,7 +37,29 @@
                 <h3 class="text2">Send Payment Reminders for<br>easy collection</h3>
             </div>
         </div>
-        <img src="\static\MainPage.jpg" class="image">
+        <img src="\static\MainPage.jpg" class="image animate__animated animate__backInDown">
     </div>
+    <div class="Section1">
+        <img src="\static\MyTijori1.png" class="image1 animate__animated animate__backInDown">
+        <div class="Section2">
+        <div class="Contentbox2 animate__animated animate__backInDown">TIJORI</div>
+        <img src="\static\MyTijori2.png" class="image2 animate__animated animate__backInDown"></div>
+    </div>
+    <footer class="footerbox animate__animated animate__backInDown">
+        <div class="iconposition">
+            <a name="icons"><div class="icons animate_animated animatetada animaterepeat-2 animate_delay-1s"></a>
+            <a href="https://www.youtube.com/@QuizMastersfee" target="_blank" style="color: rgb(255, 0, 0);"><i class="fa fa-brands fa-youtube"></i></a>
+            <a href="" target="_blank"><i class="fa fa-brands fa-instagram" style="color: rgb(255, 0, 0);"></i></a>
+            <a href="tel:7814926760"><i class="fa fa-solid fa-phone" style="color: rgb(255, 0, 0);"></i></a>
+            <a href="mailto:quizmasters.fee@gmail.com"><i class="fa fa-regular fa-envelope" style="color: rgb(255, 0, 0);"></i></a></div>
+        </div>
+        <div class="textposition animate_animated animatetada animaterepeat-2 animate_delay-1s">
+            <div class="footertext1"><a class="navlinking">PRIVACY POLICY</a></div>
+            <div class="footertext1"><a class="navlinking">TERMS OF USE</a></div>
+        </div>
+        <div class="textposition animate_animated animatetada animaterepeat-2 animate_delay-1s">
+            <div class="footertext2">&copy;2025 Tijori Khata</div>
+        </div>
+    </footer>
 </body>
 </html>

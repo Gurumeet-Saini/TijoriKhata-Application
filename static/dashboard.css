@@ -1,5 +1,5 @@
 body{
-    background-image: url(BACKGROUND.png);
+    background-image: url(Background1.png);
     background-size: 100%;
     display: flex;
     flex-direction: column;
@@ -9,15 +9,17 @@ body{
     margin: 0px;
 }
 .Headingbox{
-    height: 100px;
-    width: 700px;
+    height: 120px;
+    width: 720px;
     background-color: rgba(255, 255, 255, 0.85);
-    border: 7px solid rgb(255, 77, 0);
+    border: 6px solid rgb(255, 0, 0);
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .Contentsection{
     display: flex;
@@ -26,7 +28,7 @@ body{
     justify-content: center;
 }
 .Heading1{
-    color: rgb(255, 77, 0);
+    color: rgb(255, 0, 0);
     text-align: center;
     font-family: 'Franklin Gothic Medium';
 }
@@ -39,40 +41,78 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
     border: 1px solid rgb(255, 0, 0);
-    background-color: rgb(255, 77, 0);
+    background-color: rgb(255, 0, 0);
     border-radius: 20px 20px 20px 20px;
     margin-left: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .Registerbox{
-    height: 200px;
-    width: 500px;
+    height: 100px;
+    width: 400px;
     background-color: rgba(255, 255, 255, 0.85);
-    border: 7px solid rgb(255, 77, 0);
+    border: 6px solid rgb(255, 0, 0);
     border-radius: 20px 20px 20px 20px;
     display: flex;
     justify-self: center;
 }
-.Registersection{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
 .text1{
-    color: rgb(255, 77, 0);
-    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium';
-    border: 5px solid rgb(255, 77, 0);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 7px 7px 7px 7px;
+    background-color: rgb(255, 0, 0);
     height: fit-content;
     width: fit-content;
     display: flex;
     align-items: center;
     justify-self: center;
     margin: auto;
+    padding: 10px;
+}
+.text-center{
+    color: rgb(255, 0, 0);
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 7px 7px 7px 7px;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    padding: 6px;
+}
+.card{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.card-body{
+    background-image: url(Tijori.png);
+    background-size: 110%;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 7px 7px 7px 7px;
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-label{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
+}
+.table-dark{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium';
 }

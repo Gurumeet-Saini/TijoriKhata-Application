@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="\static\login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>TIJORIKHATA LOGIN</title>
 </head>
 <body>
-    <div class="Headingbox">
+    <div class="Headingbox animate__animated animate__backInDown">
         <div class="Contentsection">
             <h1 class="Heading1">"Effortless Transactions,<br>Like Leaves in the Wind! 🍂"</h1>
             <div class="Heading2"><h3>TIJORI<br>KHATA</h3></div>
         </div>
     </div>
-    <div class="Registerbox">
+    <div class="Registerbox animate__animated animate__backInDown">
         <form class="Registersection" action="/login" method="POST">
             <h2 class="text1">LOGIN ACCOUNT</h2>
-            <h2 class="text2"><b>DON'T HAVE AN ACCOUNT? CREATE IT</b></h2>
+            <h2 class="text2"><b>DON'T HAVE AN ACCOUNT? <a href="{{url_for('register')}}">CREATE IT</a></b></h2>
             <input type="text" class="form" placeholder="EMAIL" name="email" style="margin-top: 0px;" required>
             <input type="password" class="form" placeholder="PASSWORD" name="password" required`>
             <button type="submit" class="submitbutton">LOGIN</button>

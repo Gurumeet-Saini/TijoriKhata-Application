@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="\static\register.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>TIJORIKHATA REGISTER</title>
 </head>
 <body>
-    <div class="Headingbox">
+    <div class="Headingbox animate__animated animate__backInDown">
         <div class="Contentsection">
             <h1 class="Heading1">"Effortless Transactions,<br>Like Leaves in the Wind! 🍂"</h1>
             <div class="Heading2"><h3>TIJORI<br>KHATA</h3></div>
         </div>
     </div>
-    <div class="Registerbox">
+    <div class="Registerbox animate__animated animate__backInDown">
         <form class="Registersection" action="/register" method="POST">
             <h2 class="text1">CREATE ACCOUNT</h2>
-            <h2 class="text2"><b>ALREADY HAVE AN ACCOUNT? SIGN IN</b></h2>
+            <h2 class="text2"><b>ALREADY HAVE AN ACCOUNT? <a href="{{url_for('login')}}">SIGN IN</a></b></h2>
             <input type="text" class="form" placeholder="NAME" style="margin-top: 0px;">
             <input type="text" class="form" placeholder="USERNAME" name="username" required>
             <input type="text" class="form" placeholder="EMAIL" name="email" required>
